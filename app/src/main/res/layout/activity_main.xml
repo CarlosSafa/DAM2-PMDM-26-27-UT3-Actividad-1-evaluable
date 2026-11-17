@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="PMDM · UT3 Activities y Layouts"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEj1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Ejercicio 1: Validación URL e Intent" />
+
+    <Button
+        android:id="@+id/btnEj2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Ejercicio 2: PendingIntent y Handler (10s)" />
+
+    <Button
+        android:id="@+id/btnEj3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Ejercicio 3: LinearLayout Anidados" />
+
+    <Button
+        android:id="@+id/btnEj4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Ejercicio 4: 9 FrameLayouts" />
+
+    <Button
+        android:id="@+id/btnEj5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Ejercicio 5: Calculadora (TableLayout)" />
+
+    <Button
+        android:id="@+id/btnEj6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 6: Perfil (ConstraintLayout)" />
+
+</LinearLayout>

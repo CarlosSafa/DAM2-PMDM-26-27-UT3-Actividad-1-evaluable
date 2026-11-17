@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- Cabecera superior de color -->
+    <View
+        android:id="@+id/viewBanner"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="@color/perfil_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Imagen de perfil centrada sobre el borde del banner -->
+    <ImageView
+        android:id="@+id/ivFotoPerfil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/white"
+        android:contentDescription="Imagen de perfil del usuario"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bnpp"
+        app:layout_constraintBottom_toBottomOf="@id/viewBanner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewBanner" />
+
+    <!-- Nombre de usuario -->
+    <TextView
+        android:id="@+id/tvNombrePerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Carlos Castillo Parras"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivFotoPerfil" />
+
+    <!-- Subtítulo / Rol -->
+    <TextView
+        android:id="@+id/tvSubtituloPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Desarrollador Multiplataforma · 2º DAM"
+        android:textColor="@color/perfil_banner"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNombrePerfil" />
+
+    <!-- Descripción alineada con márgenes laterales -->
+    <TextView
+        android:id="@+id/tvDescripcionPerfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="Apasionado por el desarrollo móvil nativo en Android con Kotlin, diseño de interfaces adaptables y arquitectura limpia."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSubtituloPerfil" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

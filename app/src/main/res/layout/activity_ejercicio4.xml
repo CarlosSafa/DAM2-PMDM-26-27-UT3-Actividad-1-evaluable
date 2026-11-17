@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fitsSystemWindows="true">
+
+    <!-- FILA 1 (ARRIBA): 3 FrameLayout -->
+    <FrameLayout
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="top|start"
+        android:background="#26897E" />
+
+    <FrameLayout
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="#4CAF50" />
+
+    <FrameLayout
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="top|end"
+        android:background="#8BC34A" />
+
+    <!-- FILA 2 (CENTRO): 3 FrameLayout -->
+    <FrameLayout
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center_vertical|start"
+        android:background="#5E35B1" />
+
+    <FrameLayout
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:background="#3949AB" />
+
+    <FrameLayout
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center_vertical|end"
+        android:background="#2196F3" />
+
+    <!-- FILA 3 (ABAJO): 3 FrameLayout -->
+    <FrameLayout
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="bottom|start"
+        android:background="#E91E63" />
+
+    <FrameLayout
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#F44336" />
+
+    <FrameLayout
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="bottom|end"
+        android:background="#E89B84" />
+
+</FrameLayout>

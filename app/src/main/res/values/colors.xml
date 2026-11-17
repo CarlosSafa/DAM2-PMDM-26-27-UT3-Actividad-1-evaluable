@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta de bloques para Ejercicios 3 y 4 -->
+    <color name="color_1">#E53935</color>
+    <color name="color_2">#8E24AA</color>
+    <color name="color_3">#3949AB</color>
+    <color name="color_4">#039BE5</color>
+    <color name="color_5">#00897B</color>
+    <color name="color_6">#43A047</color>
+    <color name="color_7">#FDD835</color>
+    <color name="color_8">#FB8C00</color>
+    <color name="color_9">#6D4C41</color>
+
+    <!-- Colores Calculadora y Perfil -->
+    <color name="calc_display_bg">#1E1E1E</color>
+    <color name="calc_op_bg">#FF9800</color>
+    <color name="calc_clear_bg">#D32F2F</color>
+    <color name="perfil_banner">#1565C0</color>
+</resources>
